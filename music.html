@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flock - Music</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Flock</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="games.html">Games</a>
+      <a href="music.html">Music</a>
+      <a href="soundboard.html">Soundboard</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h1>Music Player</h1>
+
+    <div class="card">
+      <h2>Now Playing</h2>
+      <p id="track-title">No track selected</p>
+
+      <audio id="audio" controls style="width:100%; margin-top: 12px;">
+        Your browser does not support audio.
+      </audio>
+
+      <h3 style="margin-top:16px;">Playlist</h3>
+      <ul id="playlist"></ul>
+    </div>
+  </main>
+
+  <script src="js/music.js"></script>
+</body>
+</html>
